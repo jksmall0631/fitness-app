@@ -36,3 +36,25 @@
   background-size: 200px 200px;
   background-repeat: no-repeat;
 }
+
+.weekly-workouts-container {
+  width: 300px;
+}
+
+.weekly {
+  color: white;
+  background: #7A9E9F;
+  height: 50px;
+  margin: 10px;
+}
+
+.weekly h2 {
+  margin: 5px;
+  display: inline-block;
+}
+
+.weekly img {
+  float: right;
+  width: 35px;
+  margin: 10px;
+}
