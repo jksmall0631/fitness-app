@@ -1,0 +1,38 @@
+.header-container {
+  text-align: center;
+}
+
+.header-title {
+}
+
+.background {
+  background: #DBEBEB;
+}
+
+.percentages {
+  background: #EBF4F4;
+  display: flex;
+}
+
+.status {
+  width: 200px;
+  height: 250px;
+}
+
+.jump {
+  background-image: url('jump.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.weights {
+  background-image: url('weights.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+.yoga {
+  background-image: url('yoga.png');
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
