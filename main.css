@@ -52,14 +52,23 @@ p {
   margin-top: 45px;
 }
 
+.three-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.workouts-container {
+  text-align: center;
+}
+
 .goal-input, .add-hours-input {
-  display: block;
+  margin: 10px 0;
+  display: inline-block;
   border: none;
   height: 30px;
-  width: 15%;
+  width: 80%;
   background-color: #7A9E9F;
   color: white;
-  margin-left: 20px;
 }
 
 ::-webkit-input-placeholder {
@@ -74,7 +83,7 @@ p {
   color: white;
   font-size: 20px;
   font-weight: 100;
-  display: inline;
+  display: inline-block;
 }
 
 .add-btn {
@@ -86,6 +95,8 @@ p {
   font-size: 12px;
   font-weight: lighter;
   border-radius: 20px;
+  display: block;
+  margin: 10px auto;
 }
 
 input[type="checkbox"] + label:before {
@@ -95,6 +106,10 @@ input[type="checkbox"] + label:before {
 
 .weekly-workouts-container {
   width: 300px;
+}
+
+.calendar-container img {
+  width: 350px;
 }
 
 .weekly {
